@@ -1,0 +1,6 @@
+[
+    {"symbol": "♥", "übung": "Liegestütze", "min": 5, "max": 20, "timer": false},
+    {"symbol": "♠", "übung": "Kniebeugen", "min": 10, "max": 25, "timer": false},
+    {"symbol": "♦", "übung": "Plank", "min": 20, "max": 60, "timer": true},
+    {"symbol": "♣", "übung": "Jumping Jacks", "min": 15, "max": 30, "timer": false}
+]

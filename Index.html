@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinkspiel</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="marvin.js"></script>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js");
+        }
+        </script>
+
+
+</head>
+<body>
+    <h1>Trinkspiel</h1>
+    <button onclick="previousCard()">← Zurück</button>
+    <button onclick="drawCard()">Ziehe eine Karte</button>
+    <button onclick="nextCard()">Weiter →</button>
+    <button onclick="shuffleCards()">🔄 Neu mischen</button>
+    
+    <div id="card">
+        <p id="symbol"></p>
+        <p id="exercise"></p>
+        <p id="reps"></p>
+    </div>
+</body>
+</html>
