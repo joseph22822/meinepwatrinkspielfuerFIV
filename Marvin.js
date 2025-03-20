@@ -7,6 +7,8 @@ const drinks = [
 let cardHistory = [];
 let currentIndex = -1;
 
+
+
 function drawCard() {
     const randomDrink = drinks[Math.floor(Math.random() * drinks.length)];
     const randomPerson = Math.floor(Math.random() * 5) + 1; 
